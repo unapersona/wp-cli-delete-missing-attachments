@@ -1,0 +1,20 @@
+{
+    "name": "unapersona/delete-missing-attachments",
+    "description": "Delete missing attachments from the media libray using WPCLI",
+    "type": "wp-cli-package",
+    "keywords": ["attachments", "wp-cli", "wordpress"],
+    "homepage": "https://github.com/unapersona/wp-cli-delete-missing-attachments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "unapersona",
+            "email": "dev@unapersona.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": ["src/delete-missing-attachments.php"]
+    }
+}
